@@ -1,104 +1,99 @@
-
-
-body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
-label{
+
+label {
     color: blueviolet;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
 }
+
 header {
     background-color: #fff;
     color: #333;
     text-align: center; 
     padding: 1rem 0;
-  }
-.container{
+}
+
+.container {
     display: flex;
     width: 90%;
-    margin: 0px ;
-    border: 0px solid #ff0000;
+    margin: 0;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
-.lateral{
+.lateral {
     width: 35%;
     background-color: #31313d;
     color: #fff;
     display: flexbox;
-    margin: 0px;
-    margin-left: 0px;
+    margin: 0;
+    margin-left: 0;
 }
 
-.conteudo{
+.conteudo {
     width: 60%;
     color: #31313d;
     background-color: #fff;
-    margin-right: 0px;
+    margin-right: 0;
     margin-left: 60px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     line-height: 1;
-
-
 }
 
-.card{
+.card {
     background-color: #fff;
     padding: 5px;
-    margin-top: 0px;
-
+    margin-top: 0;
 }
-
-
 
 footer {
     background-color: #38383a;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-  }
+}
 
-  .contatos {
-    
+.contatos {
     display: flex;
-    justify-content: baseline;    
+    justify-content: baseline;
     border-spacing: 10px;
-  }
-  a:visited{
-        color:#fff  
+}
 
-  }
-  .info{
+a:visited {
+    color: #fff;
+}
+
+.info {
     margin-top: 10px;
     padding: 15px;
-    
+}
 
-  }
-  .foto img    {
+.foto img {
     border-radius: 50%;
     width: 50%;
     margin-top: 10px;
 }
+
 .foto {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.titulo{
+.titulo {
     display: flex;
     color: #17b79d;
     line-height: 1;
-
-
 }
-.titulo hr{
+
+.titulo hr {
     width: 100%;
     height: 2px;
     background-color: #31313d;
@@ -106,16 +101,14 @@ footer {
     margin: auto;
     display: inline-block;
     border-radius: 5px;
-    
 }
 
-.titulo-perfil{
+.titulo-perfil {
     display: flex;
     line-height: 1;
-
 }
 
-.titulo-perfil hr{
+.titulo-perfil hr {
     width: 100%;
     height: 2px;
     background-color: #17b79d;
@@ -124,3 +117,27 @@ footer {
     display: inline-block;
     border-radius: 5px;
 }
+
+/* ... (seu código existente) ... */
+
+.habilidade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.barra {
+    width: 60%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.porcentagem {
+    height: 100%;
+    background-color: #17b79d;
+}
+
+/* ... (seu código existente) ... */
